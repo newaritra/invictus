@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# invictus
+The app was built with the help of React JS to build the frontend of the app and the API call was made with the help of a library named axios which made a request to the URL provided for the assignment.
+The app is deployed on [a firebase site](https://invictus-e01dd.web.app/).
+### FRONTEND [REACT JS]
+#### TECH USED:
+1.React JS and its hooks<br/>
+2.`Axios`
+#### COMPONENTS:
+#### 1.Input[To enter the number of top frequency words we need]
+![image](https://user-images.githubusercontent.com/56667293/118403984-aa144b00-b68e-11eb-8dbb-c8f4ddcdd9a9.png)
+<br/>The input component takes a number as input and displays the N top ranking words based on the frequency of the words in the file. The table is rendered after a valid input is entered in the input field ,i.e, a number between 0 and the number of unique words in the  file, otherwise a warning is displayed below the input field.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### 2.Homescreen
+The Homescreen component is used to display the input form and the table.
+![image](https://user-images.githubusercontent.com/56667293/118404022-d9c35300-b68e-11eb-9a0b-757fc10a06ee.png)
+<br/>The table that is rendered on valid input.
 
-## Available Scripts
+#### Test Cases:
+On entering a number that is negative or above the number of unique words a warning is displayed.
+![image](https://user-images.githubusercontent.com/56667293/118404170-535b4100-b68f-11eb-82fd-796c01bd43bd.png)
+<br/>The input type is `number` so the user will need to enter numerical values by default.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
