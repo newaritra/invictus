@@ -17,6 +17,8 @@ The Homescreen component is used to display the input form and the table.
 
 #### Test Cases:
 On entering a number that is negative or above the number of unique words a warning is displayed.
+![image](https://user-images.githubusercontent.com/56667293/118404313-12176100-b690-11eb-9ccf-47113711beb8.png)
+
 ![image](https://user-images.githubusercontent.com/56667293/118404170-535b4100-b68f-11eb-82fd-796c01bd43bd.png)
 <br/>The input type is `number` so the user will need to enter numerical values by default.
 
